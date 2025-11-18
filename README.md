@@ -256,11 +256,11 @@ pip install -r requirements.txt
 Or install manually:
 pip install pandas numpy scikit-learn xgboost shap streamlit joblib
 
-11. Using the Model Programmatically
+## 11. Using the Model Programmatically
 
 Example Python code for loading and using the model:
 
-´´´import joblib
+```import joblib
 import json
 import pandas as pd
 from pathlib import Path
@@ -303,7 +303,7 @@ will_churn = proba >= threshold
 
 print("Churn probability:", proba)
 print("Will churn:", bool(will_churn))
-´´´
+```
 ## 12. Possible Extensions
 
 Potential enhancements to this project include:
