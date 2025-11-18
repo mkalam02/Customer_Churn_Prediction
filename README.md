@@ -254,11 +254,13 @@ To install the required packages, use one of the following methods:
 
 Using a requirements file:
 
-```pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
 ```
 Or install manually:
 
-```pip install pandas numpy scikit-learn xgboost shap streamlit joblib
+```bash
+pip install pandas numpy scikit-learn xgboost shap streamlit joblib
 ```
 
 ## 11. Using the Model Programmatically
