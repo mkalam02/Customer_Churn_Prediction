@@ -253,10 +253,13 @@ Customer_Churn_Prediction/
 To install the required packages, use one of the following methods:
 
 Using a requirements file:
-pip install -r requirements.txt
 
+```pip install -r requirements.txt
+```
 Or install manually:
-pip install pandas numpy scikit-learn xgboost shap streamlit joblib
+
+```pip install pandas numpy scikit-learn xgboost shap streamlit joblib
+```
 
 ## 11. Using the Model Programmatically
 
