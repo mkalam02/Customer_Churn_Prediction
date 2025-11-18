@@ -229,6 +229,7 @@ Feature names after encoding
 These artifacts allow for efficient deployment and reuse without retraining the model.
 
 ## 9. Project Structure
+```
 Customer_Churn_Prediction/
 │
 ├── data/
@@ -245,6 +246,7 @@ Customer_Churn_Prediction/
 │   └── app.py
 │
 └── README.md
+```
 
 ## 10. Environment and Installation
 
@@ -306,16 +308,16 @@ print("Will churn:", bool(will_churn))
 ```
 ## 12. Possible Extensions
 
-Potential enhancements to this project include:
+-> Potential enhancements to this project include:
 
-Hyperparameter tuning using cross-validation
+-> Hyperparameter tuning using cross-validation
 
-Benchmarking additional models (Random Forest, LightGBM, CatBoost)
+-> Benchmarking additional models (Random Forest, LightGBM, CatBoost)
 
-Cost-sensitive evaluation for business scenarios
+-> Cost-sensitive evaluation for business scenarios
 
-Deployment to the cloud (Streamlit Cloud, Render, AWS)
+-> Deployment to the cloud (Streamlit Cloud, Render, AWS)
 
-Monitoring real-time predictions
+-> Monitoring real-time predictions
 
-Creating automated retraining pipelines
+-> Creating automated retraining pipelines
