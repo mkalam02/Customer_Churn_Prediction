@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.churn_venv/
+venv/
+env/
+
+# Data
+data/*.csv
+
+# Model artifacts
+models/*.pkl
+models/*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
